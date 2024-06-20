@@ -26,7 +26,7 @@ public class CalculatorTest {
         assertEquals(6,calc.addition(4,2));
         System.out.println("Test 1");
     }
-    @Test(timeout = 100)
+    @Test(timeout = 50)
     public void given_two_integers_when_addition_then_timeout(){
         assertEquals(6,calc.addition(4,2));
         System.out.println("Test 2");
@@ -48,7 +48,7 @@ public class CalculatorTest {
         System.out.println("Test 4");
     }
 
-    @Test(timeout = 150)
+    @Test(timeout = 50)
     public void given_two_integers_when_subtraction_then_timeout(){
         assertEquals(2,calc.subtraction(4,2));
         System.out.println("Test 5");
@@ -68,7 +68,7 @@ public class CalculatorTest {
 
 
 
-    @Test(timeout = 150)
+    @Test(timeout = 50)
     public void given_two_integers_when_multiplication_then_timeout(){
         assertEquals(-8,calc.multiplication(-4,2));
         System.out.println("Test 8");
@@ -87,7 +87,7 @@ public class CalculatorTest {
         System.out.println("Test 10");
     }
 
-    @Test(timeout = 150)
+    @Test(timeout = 50)
     public void given_two_integers_when_division_then_timeout(){
         assertEquals(-2,calc.division(-4,2));
         System.out.println("Test 11");
