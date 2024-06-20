@@ -43,4 +43,25 @@ public class CalculatorParametersTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void given_two_integers_when_subtraction_then_ok(){
+        Calculator calc = new Calculator();
+        int actual = calc.subtraction(a,b);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void given_two_integers_when_multiplication_then_ok(){
+        Calculator calc = new Calculator();
+        int actual = calc.multiplication(a,b);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void given_two_integers_when_division_then_ok(){
+        Calculator calc = new Calculator();
+        int actual = calc.division(a,b);
+        assertEquals(expected, actual);
+    }
+
 }
